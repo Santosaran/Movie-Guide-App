@@ -1,7 +1,7 @@
 //Initial References
 let movieNameRef = document.getElementById("movie-name");
 let searchBtn = document.getElementById("search-btn");
-let result = document.getElementById("result");
+let result = document.getElementById("result"); 
 
 //Function to fetch data from API
 let getMovie = () => {
