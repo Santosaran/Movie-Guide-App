@@ -20,7 +20,7 @@ let getMovie = () => {
         if (data.Response == "True") {
           result.innerHTML = `
             <div class="info">
-                <img src=${data.Poster} class="poster">
+                <img src=${data.Poster} class="poster"> 
                 <div>
                     <h2>${data.Title}</h2>
                     <div class="rating">
